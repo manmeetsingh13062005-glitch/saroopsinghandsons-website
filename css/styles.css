@@ -475,7 +475,7 @@ p + p { margin-top: var(--sp-3); }
 .project-registry { margin-top: var(--sp-9); }
 .project-registry h3 { margin-bottom: var(--sp-4); }
 .table-scroll { overflow-x: auto; border: 1px solid var(--border); border-radius: var(--radius); }
-table { min-width: 640px; font-size: 0.92rem; }
+table { min-width: 820px; font-size: 0.92rem; }
 thead th {
   text-align: left;
   background: var(--pine);
@@ -531,6 +531,17 @@ tbody tr:last-child td { border-bottom: none; }
   align-items: center;
 }
 .contact-copy p { color: var(--ink-soft); max-width: 42ch; margin-top: var(--sp-3); }
+.business-card {
+  margin-top: var(--sp-6);
+  max-width: 420px;
+}
+.business-card img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1179 / 648;
+  border-radius: 8px;
+  box-shadow: var(--shadow-soft);
+}
 .contact-card {
   background: var(--pine);
   color: var(--paper-on-dark);
